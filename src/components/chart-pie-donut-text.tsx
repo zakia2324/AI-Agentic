@@ -48,7 +48,7 @@ export function Components() {
   return (
     <Card className="flex flex-col">
       <CardHeader className="items-center pb-0">
-        <CardTitle>AI Agentic - world</CardTitle>
+        <CardTitle> Agentia - world</CardTitle>
         <CardDescription>January - June 2025</CardDescription>
       </CardHeader>
       <CardContent className="flex-1 pb-0">
@@ -65,7 +65,7 @@ export function Components() {
                           {totalVisitors.toLocaleString()}
                         </tspan>
                         <tspan x={viewBox.cx} y={(viewBox.cy || 0) + 24} className="fill-muted-foreground">
-                          Visitors
+                          AI Solutions Distribution
                         </tspan>
                       </text>
                     )
