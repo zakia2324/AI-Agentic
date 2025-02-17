@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Header: React.FC = () => {
   return (
     <header className="bg-gray-900 text-white p-4 flex items-center justify-between">
       <div className="flex items-center">
-        <img src="/robot.jpg" alt="Logo" className="h-10 w-10 mr-3" />
+        <Image src="/robot.jpg" alt="Logo" className="h-10 w-10 mr-3" width={40} height={40} />
         <h1 className="text-2xl font-bold">AI Agent World</h1>
       </div>
       <nav>
